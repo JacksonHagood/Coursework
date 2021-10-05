@@ -6,8 +6,8 @@ memory down such that the total memory is a power
 of two times the basic block size. System is
 tested using the Ackerman recursive function.
 
-en.wikipedia.org/wiki/Buddy_memory_allocation
-en.wikipedia.org/wiki/Ackermann_function.
+https://en.wikipedia.org/wiki/Buddy_memory_allocation
+https://en.wikipedia.org/wiki/Ackermann_function
 
 Run using ./memtest or ./memtestOutput.
 -b flag specifies basic block size (bytes).
