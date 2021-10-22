@@ -392,7 +392,7 @@ void binaryTester() {
             cout << "\n\t\tTree cleared\n";
         } else if (input == 'g') {
             if (tree.getSize() > 0) {
-                cout << "\n\t\t\033Root: [34m" << tree.getRoot()->nodeValue << "\033[0m removed\n";
+                cout << "\n\t\tRoot: \033[34m" << tree.getRoot()->nodeValue << "\033[0m\n";
             } else {
                 cout << "\n\t\tTree does is size \033[31m0\033[0m\n";
             }
